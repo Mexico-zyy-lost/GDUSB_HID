@@ -122,28 +122,28 @@ int main(void)
 	
 //	timer2_config(); // PB2
 
-//	rcu_config();
-//	
-//	hid_itfop_register (&usb_hid, &fop_handler);
+	rcu_config();
+	
+	hid_itfop_register (&usb_hid, &fop_handler);
 
-//    /* USB device configuration */
-//    usbd_init(&usb_hid, &hid_desc, &hid_class);
+    /* USB device configuration */
+    usbd_init(&usb_hid, &hid_desc, &hid_class);
 
-//    /* NVIC configuration */
-//    nvic_config();
+    /* NVIC configuration */
+    nvic_config();
 
-//    usbd_connect(&usb_hid);
-//	
+    usbd_connect(&usb_hid);
+	
 ////	IIC_Init();
 ////	
 ////	writeOneByte(0x10,0xc0,1);
-//	
-//	while(USBD_CONFIGURED != usb_hid.cur_status){
-//    }
+	
+	while(USBD_CONFIGURED != usb_hid.cur_status){
+    }
 	
 	while(1)
 	{
-		gd_led_off(LED2);
+		gd_led_off(LED2); 
 		
 		/* check whether the button is pressed */
 		KEY_MATRIX_Scan(key_temp,&isFn_Press);
@@ -154,29 +154,9 @@ int main(void)
 				buff_Key[3 + i] = key_temp[i];
 			}
 			fop_handler.hid_itf_data_process(&usb_hid);
-			
-//			if(isFn_Press)
-//			{
-//				buff_Key[3] = 0x04u;
-//				fop_handler.hid_itf_data_process(&usb_hid);
-//			}
-//			else
-//			{
-//				buff_Key[3] = 0x04u;
-//			}
+
 			/* delay 10ms for software removing jitter */
 			delay_1ms(10);
-
-//			/* check whether the button is pressed */
-//			if(RESET == gd_key_state_get(KEY_USER))
-//			{
-//				delay_1ms(120);
-//				if(RESET == gd_key_state_get(KEY_USER))
-//				{
-//					gd_led_toggle(LED2);
-//					fop_handler.hid_itf_data_process(&usb_hid);
-//				}
-//			}
 		}
 //		
 //		if(touch_singal)

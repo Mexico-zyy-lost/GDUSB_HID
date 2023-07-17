@@ -1,6 +1,6 @@
 Dependencies for Project 'GD32F303', Target 'GD32F303': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (..\Code\Mains\main.c)(0x64B09BBA)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Code\Mains -I ..\Code\GD32Api\CMSIS -I ..\Code\GD32Api\F30x_stdperiph\Include -I ..\Code\Drivers -I ..\Code\Inc -I ..\..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\..\Firmware\GD32F30x_standard_peripheral\Include -I ..\..\Firmware\GD32F30x_usbd_library\device\Include -I ..\..\Firmware\GD32F30x_usbd_library\usbd\Include -I ..\..\Firmware\GD32F30x_usbd_library\class\device\hid\Include -I ..\..\Utilities -I ..\..\Firmware\CMSIS-ID:\Programs\Pack\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="535" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\Code\Mains\main.c)(0x64B20AC1)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Code\Mains -I ..\Code\GD32Api\CMSIS -I ..\Code\GD32Api\F30x_stdperiph\Include -I ..\Code\Drivers -I ..\Code\Inc -I ..\..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\..\Firmware\GD32F30x_standard_peripheral\Include -I ..\..\Firmware\GD32F30x_usbd_library\device\Include -I ..\..\Firmware\GD32F30x_usbd_library\usbd\Include -I ..\..\Firmware\GD32F30x_usbd_library\class\device\hid\Include -I ..\..\Utilities -I ..\..\Firmware\CMSIS-ID:\Programs\Pack\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="535" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\Code\Mains\main.h)(0x6450F0CD)
 I (..\..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x61CC215C)
 I (..\Code\GD32Api\CMSIS\core_cm4.h)(0x6450F0D0)
@@ -36,7 +36,7 @@ I (..\Code\GD32Api\F30x_stdperiph\Include\gd32f30x_enet.h)(0x6450F0D5)
 I (..\Code\GD32Api\F30x_stdperiph\Include\gd32f30x_exmc.h)(0x6450F0D6)
 I (..\Code\Mains\systick.h)(0x6450F0CD)
 I (..\Code\Drivers\led.h)(0x64AD571A)
-I (..\Code\Drivers\key.h)(0x64B015EE)
+I (..\Code\Drivers\key.h)(0x64B09DD2)
 I (..\Code\Drivers\usart.h)(0x6450F0C8)
 I (D:\Programs\MDK\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (D:\Programs\MDK\ARM\ARMCC\include\string.h)(0x6025237E)
@@ -267,7 +267,7 @@ I (..\Code\GD32Api\F30x_stdperiph\Include\gd32f30x_misc.h)(0x6450F0D7)
 I (..\Code\GD32Api\F30x_stdperiph\Include\gd32f30x_enet.h)(0x6450F0D5)
 I (..\Code\GD32Api\F30x_stdperiph\Include\gd32f30x_exmc.h)(0x6450F0D6)
 F (..\Code\Drivers\key.c)(0x64B09BBD)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\Code\Mains -I ..\Code\GD32Api\CMSIS -I ..\Code\GD32Api\F30x_stdperiph\Include -I ..\Code\Drivers -I ..\Code\Inc -I ..\..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\..\Firmware\GD32F30x_standard_peripheral\Include -I ..\..\Firmware\GD32F30x_usbd_library\device\Include -I ..\..\Firmware\GD32F30x_usbd_library\usbd\Include -I ..\..\Firmware\GD32F30x_usbd_library\class\device\hid\Include -I ..\..\Utilities -I ..\..\Firmware\CMSIS-ID:\Programs\Pack\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include-D__UVISION_VERSION="535" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
-I (..\Code\Drivers\key.h)(0x64B015EE)
+I (..\Code\Drivers\key.h)(0x64B09DD2)
 I (..\..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x61CC215C)
 I (..\Code\GD32Api\CMSIS\core_cm4.h)(0x6450F0D0)
 I (D:\Programs\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)

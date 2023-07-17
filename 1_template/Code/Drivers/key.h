@@ -11,7 +11,7 @@
 
 #define KEY_PRESSED 0   // 按键按下状态
 
-#define FILTER_VALUE 10
+#define FILTER_VALUE 3
 
 // 行 输出
 static uint32_t KEY_PORT[ROW] = {GPIOB,GPIOB,GPIOB,GPIOB,GPIOB,GPIOB,GPIOB,GPIOB,

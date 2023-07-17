@@ -21,28 +21,12 @@ Target DLL:      CMSIS_AGDI.dll V1.33.0.0
 Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
-D:\ExtCode\USB_HID\1_template\Keilpro\GD32F303.uvprojx
+D:\ExtCode\gd32_usb\1_template\Keilpro\GD32F303.uvprojx
 Project File Date:  05/11/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Programs\MDK\ARM\ARMCC\Bin'
 Build target 'GD32F303'
-compiling key.c...
-..\Code\Drivers\key.h(91): warning:  #1295-D: Deprecated declaration gd_key_init - give arg types
-  void gd_key_init();
-..\Code\Drivers\key.c(238): warning:  #223-D: function "delay_1ms" declared implicitly
-  			delay_1ms(1);
-..\Code\Drivers\key.c(4): warning:  #177-D: variable "KEY_CLK"  was declared but never referenced
-  static rcu_periph_enum KEY_CLK[KEYn] = {USER_KEY_GPIO_CLK};
-..\Code\Drivers\key.c(6): warning:  #177-D: variable "KEY_EXTI_LINE"  was declared but never referenced
-  static exti_line_enum KEY_EXTI_LINE[KEYn] = {USER_KEY_EXTI_LINE};
-..\Code\Drivers\key.c(8): warning:  #177-D: variable "KEY_PORT_SOURCE"  was declared but never referenced
-  static uint8_t KEY_PORT_SOURCE[KEYn] = {USER_KEY_EXTI_PORT_SOURCE};
-..\Code\Drivers\key.c(9): warning:  #177-D: variable "KEY_PIN_SOURCE"  was declared but never referenced
-  static uint8_t KEY_PIN_SOURCE[KEYn] = {USER_KEY_EXTI_PIN_SOURCE};
-..\Code\Drivers\key.c(11): warning:  #177-D: variable "KEY_IRQn"  was declared but never referenced
-  static uint8_t KEY_IRQn[KEYn] = {USER_KEY_EXTI_IRQn};
-..\Code\Drivers\key.c: 7 warnings, 0 errors
 compiling main.c...
 ..\Code\Drivers\key.h(91): warning:  #1295-D: Deprecated declaration gd_key_init - give arg types
   void gd_key_init();
@@ -50,10 +34,10 @@ compiling main.c...
   static uint8_t touch_singal;
 ..\Code\Mains\main.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=3388 RO-data=336 RW-data=528 ZI-data=1216  
+Program Size: Code=7068 RO-data=528 RW-data=1184 ZI-data=1240  
 FromELF: creating hex file...
-After Build - User command #1: fromelf --bin -o "D:\ExtCode\USB_HID\1_template\Keilpro\Objects\GD32F303.bin" "D:\ExtCode\USB_HID\1_template\Keilpro\Objects\GD32F303.axf"
-".\Objects\GD32F303.axf" - 0 Error(s), 9 Warning(s).
+After Build - User command #1: fromelf --bin -o "D:\ExtCode\gd32_usb\1_template\Keilpro\Objects\GD32F303.bin" "D:\ExtCode\gd32_usb\1_template\Keilpro\Objects\GD32F303.axf"
+".\Objects\GD32F303.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -66,7 +50,7 @@ Package Vendor: GigaDevice
   D:\Programs\Pack\GigaDevice\GD32F30x_DFP\2.2.1\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>
